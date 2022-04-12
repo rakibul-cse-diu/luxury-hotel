@@ -16,7 +16,7 @@ const Header = () => {
                         <span className='block'>Hotel</span></h3>
                 </div>
 
-                <nav className={`flex flex-col md:flex-row justify-center bg-orange-300 md:bg-transparent w-3/4 absolute left-0 md:static px-4 py-20 z-10 duration-500 ease-in ${toggle ? 'top-0' : 'top-[-400px]'}`}>
+                <nav className={`flex flex-col md:flex-row justify-center bg-orange-300 md:bg-transparent w-3/4 absolute left-0 md:static px-4 py-20 md:py-0 z-10 duration-500 ease-in ${toggle ? 'top-0' : 'top-[-400px]'}`}>
 
                     <Link to="/">Home</Link>
                     <Link to="/">Facilities</Link>
