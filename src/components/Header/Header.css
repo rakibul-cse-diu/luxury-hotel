@@ -10,7 +10,7 @@ header {
 }
 
 .logo-wrapper {
-    background-color: #E0B973;
+    background-color: #FDBA74;
     color: #14274A;
     border-radius: 0 0 22px 22px;
 }
@@ -32,17 +32,17 @@ nav a {
 }
 
 nav a:hover {
-    border-bottom: 2px solid #E0B973;
+    border-bottom: 2px solid #FDBA74;
 }
 
 .nav-container button {
-    background-color: #E0B973;
+    background-color: #FDBA74;
     font-size: 1.3em;
     font-weight: 400;
 }
 
 .nav-container button:hover {
-    background-color: #c89a46;
+    background-color: #E0B973;
 }
 
 

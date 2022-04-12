@@ -12,19 +12,19 @@ const Header = () => {
         <header className=''>
             <div className="nav-container flex justify-between items-center">
                 <div className='logo-wrapper px-3 py-2'>
-                    <h3>Luxury
+                    <h3>Luxur
                         <span className='block'>Hotel</span></h3>
                 </div>
 
-                <nav className={`flex flex-col md:flex-row bg-orange-300 md:bg-transparent w-3/4 absolute top-0 md:static px-4 py-20 z-10 duration-500 ease-in ${toggle ? 'right-0' : 'right-[-300px]'}`}>
+                <nav className={`flex flex-col md:flex-row justify-center bg-orange-300 md:bg-transparent w-3/4 absolute left-0 md:static px-4 py-20 z-10 duration-500 ease-in ${toggle ? 'top-0' : 'top-[-400px]'}`}>
 
                     <Link to="/">Home</Link>
                     <Link to="/">Facilities</Link>
                     <Link to="/">Rooms</Link>
                     <Link to="/">Contact Us</Link>
                 </nav>
-                <button className='btn px-6 py-1 duration-500'>LogIn</button>
-                <div className='block md:hidden text-4xl font-semibold p-2 text-white z-20' onClick={() => setToggle(!toggle)}>
+                <button className='btn px-2 md:px-6 py-0 md:py-1 duration-500'>LogIn</button>
+                <div className={`block md:hidden text-4xl font-semibold p-2 z-20 ${toggle ? 'absolute top-0 text-white' : 'static text-orange-300'}`} onClick={() => setToggle(!toggle)}>
                     {
                         toggle ?
                             <FontAwesomeIcon icon={faXmark} /> :
