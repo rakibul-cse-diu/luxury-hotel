@@ -32,7 +32,6 @@ nav a {
 }
 
 nav a:hover {
-    color: #E0B973;
     border-bottom: 2px solid #E0B973;
 }
 
@@ -55,12 +54,11 @@ nav a:hover {
     }
 
     nav a {
-        color: #14274A;
+        color: white;
         margin: 5px 10px;
     }
 
     nav a:hover {
-        color: #14274A;
         border-bottom: 2px solid #14274A;
     }
 }
