@@ -1,11 +1,40 @@
-header {
+.home-header {
     background: -webkit-linear-gradient(rgba(2, 2, 2, 0.47), rgba(0, 0, 0, 0.173)), url("../../images/home-header-image.png");
     background: linear-gradient(rgba(2, 2, 2, 0.47), rgba(0, 0, 0, 0.173)), url("../../images/home-header-image.png");
     width: 100%;
-    height: 70vh;
+    height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding: 0 4%;
+}
+
+.rooms-header {
+    background: -webkit-linear-gradient(rgba(2, 2, 2, 0.47), rgba(0, 0, 0, 0.173)), url("../../images/rooms-top-image.png");
+    background: linear-gradient(rgba(2, 2, 2, 0.47), rgba(0, 0, 0, 0.173)), url("../../images/rooms-top-image.png");
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0 4%;
+}
+
+.facilities-header {
+    background: -webkit-linear-gradient(rgba(2, 2, 2, 0.47), rgba(0, 0, 0, 0.173)), url("../../images/faciliries-top-image.png");
+    background: linear-gradient(rgba(2, 2, 2, 0.47), rgba(0, 0, 0, 0.173)), url("../../images/faciliries-top-image.png");
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0 4%;
+}
+
+.contact-header {
+    background-color: #14274A;
+    width: 100%;
+    height: 60vh;
     padding: 0 4%;
 }
 
@@ -49,6 +78,13 @@ nav a:hover {
 /* Media query */
 @media only screen and (max-width: 668px) {
 
+    .home-header,
+    .rooms-header,
+    .facilities-header,
+    .contact-header {
+        height: 40vh;
+    }
+
     .logo-wrapper h3 {
         font-size: 1em;
     }
@@ -64,6 +100,14 @@ nav a:hover {
 }
 
 @media only screen and (min-width: 669px) and (max-width: 992px) {
+
+    .home-header,
+    .rooms-header,
+    .facilities-header,
+    .contact-header {
+        height: 70vh;
+    }
+
     nav a {
         margin-right: 2em;
     }
