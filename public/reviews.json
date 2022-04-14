@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "name": "Kallie G",
+        "img": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/741503e8-a4ed-4855-994a-3f5c783f52c7._CR69,0,362,362_SX460_.jpg",
+        "review": "Calm, Serene, Retro – What a way to relax and enjoy"
+    },
+    {
+        "id": "2",
+        "name": "Grossman",
+        "img": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/e234e759-ec66-48a0-8d42-3972f2e4dc90._CR0,0,500,500_SX460_.jpg",
+        "review": "Calm, Serene, Retro – What a way to relax and enjoy"
+    },
+    {
+        "id": "3",
+        "name": "Joseph Pitt",
+        "img": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/35f305fb-562f-4347-bece-cb5e561fb620._CR21,0,675,675_SX460_.jpg",
+        "review": "Calm, Serene, Retro – What a way to relax and enjoy"
+    },
+    {
+        "id": "4",
+        "name": "Garcia",
+        "img": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/31a0c6d2-f089-4c93-925e-7b8fbd8389cf._CR0,0,1080,1080_SX460_.jpg",
+        "review": "Calm, Serene, Retro – What a way to relax and enjoy"
+    },
+    {
+        "id": "5",
+        "name": "Krista Kitty",
+        "img": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/09bb329d-f298-4319-a9ca-7c85254ce165._CR0,13,306,306_UX460_.jpg",
+        "review": "Calm, Serene, Retro – What a way to relax and enjoy"
+    },
+    {
+        "id": "6",
+        "name": "S. Borrelli",
+        "img": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/e956d788-e9dc-43cc-910c-3d5ac54b206a._CR109,0,281,281_SX460_.jpg",
+        "review": "Calm, Serene, Retro – What a way to relax and enjoy"
+    }
+]
