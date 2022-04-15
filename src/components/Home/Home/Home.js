@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../../Header/Header';
+import Testimonial from '../../Testimonial/Testimonial';
 import Features from '../Features/Features';
-import Testimonial from '../Testimonial/Testimonial';
 
 const Home = () => {
     return (
