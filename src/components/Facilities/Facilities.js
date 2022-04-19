@@ -13,6 +13,11 @@ const Facilities = () => {
         <div>
             <Header headerClass='facilities-header' />
             <h2 className='text-3xl font-bold text-center mt-8'>Facilities</h2>
+            <div className='flex flex-col justify-center items-center mt-5'>
+                <p className='font-light w-3/4 text-center'>We want your stay at our lush hotel to be truly unforgettable.  That is why we give special attention to all of your needs so
+                    that we can ensure an experience quite uniquw. Luxury hotels offers the perfect setting with stunning views for leisure
+                    and our modern luxury resort facilities will help you enjoy the best of all. </p>
+            </div>
             <div className='flex flex-col justify-center items-center my-14'>
                 <div className='flex flex-col justify-center items-center mb-12'>
                     <div className='flex flex-col relative w-3/4 md:w-2/4'>
